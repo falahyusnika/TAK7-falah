@@ -1,0 +1,394 @@
+{
+	"id": "fb90a325-2e22-415a-a3fb-e9911971a089",
+	"name": "TAK 7 - Kasir Aja API",
+	"timestamp": "2024-09-12T11:53:54.719Z",
+	"collection_id": "38068181-2242fc40-2166-4331-98a3-eb3a49fa875b",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 12,
+	"delay": "10",
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2024-09-12T11:53:50.913Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "ef5a272f-2c0c-4d7b-8d7e-680cb7bae583",
+			"name": "registration",
+			"url": "https://kasir-api.zelz.my.id/registration",
+			"time": 831,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code is 201": true
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				831
+			],
+			"allTests": [
+				{
+					"Status code is 201": true
+				}
+			]
+		},
+		{
+			"id": "42aa1c33-fccf-4e82-9dbb-9baa70caafa2",
+			"name": "login",
+			"url": "https://kasir-api.zelz.my.id/authentications",
+			"time": 668,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code is 201": true
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				668
+			],
+			"allTests": [
+				{
+					"Status code is 201": true
+				}
+			]
+		},
+		{
+			"id": "7d0bd05a-899d-4916-9a3f-02376813b766",
+			"name": "add category",
+			"url": "https://kasir-api.zelz.my.id/categories",
+			"time": 133,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code is 201": true
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				133
+			],
+			"allTests": [
+				{
+					"Status code is 201": true
+				}
+			]
+		},
+		{
+			"id": "575c1b9f-0f4b-4c58-b55e-d7de18e04c68",
+			"name": "category list",
+			"url": "https://kasir-api.zelz.my.id/categories",
+			"time": 44,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				44
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "2e0724fd-aefb-4340-925f-d6443ce7f42f",
+			"name": "category list detail",
+			"url": "https://kasir-api.zelz.my.id/categories/4298948e-4941-4184-8214-d8e63d91a854",
+			"time": 30,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				30
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "3a6c5aa5-1393-4746-afd9-f311891e3030",
+			"name": "update category",
+			"url": "https://kasir-api.zelz.my.id/categories/4298948e-4941-4184-8214-d8e63d91a854",
+			"time": 34,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				34
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "696a64ec-c194-4676-8b94-e515c4c58a22",
+			"name": "Delete category",
+			"url": "https://kasir-api.zelz.my.id/categories/4298948e-4941-4184-8214-d8e63d91a854",
+			"time": 59,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				59
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "7e928987-d147-4a9a-b174-f1dcc8b893c3",
+			"name": "add request",
+			"url": "https://kasir-api.zelz.my.id/customers",
+			"time": 89,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code is 201": true
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				89
+			],
+			"allTests": [
+				{
+					"Status code is 201": true
+				}
+			]
+		},
+		{
+			"id": "d47e4337-0072-4aa9-ad16-e1ad0f99290b",
+			"name": "customer detail",
+			"url": "https://kasir-api.zelz.my.id/customers/c4860e2d-16ed-40ac-b6f9-ba31a327adfc",
+			"time": 36,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				36
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "be318979-f827-46e5-ab35-a0732579a390",
+			"name": "customer list",
+			"url": "https://kasir-api.zelz.my.id/customers",
+			"time": 40,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				40
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "3bc5eea8-abd9-40c6-8123-5d9013eea17a",
+			"name": "update customer",
+			"url": "https://kasir-api.zelz.my.id/customers/c4860e2d-16ed-40ac-b6f9-ba31a327adfc",
+			"time": 35,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				35
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "81773054-5385-4bf0-9a11-22523054dac0",
+			"name": "Delete customer",
+			"url": "https://kasir-api.zelz.my.id/customers/c4860e2d-16ed-40ac-b6f9-ba31a327adfc",
+			"time": 36,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				36
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 2035,
+	"collection": {
+		"requests": [
+			{
+				"id": "ef5a272f-2c0c-4d7b-8d7e-680cb7bae583",
+				"method": "POST"
+			},
+			{
+				"id": "42aa1c33-fccf-4e82-9dbb-9baa70caafa2",
+				"method": "POST"
+			},
+			{
+				"id": "7d0bd05a-899d-4916-9a3f-02376813b766",
+				"method": "POST"
+			},
+			{
+				"id": "575c1b9f-0f4b-4c58-b55e-d7de18e04c68",
+				"method": "GET"
+			},
+			{
+				"id": "2e0724fd-aefb-4340-925f-d6443ce7f42f",
+				"method": "GET"
+			},
+			{
+				"id": "3a6c5aa5-1393-4746-afd9-f311891e3030",
+				"method": "PUT"
+			},
+			{
+				"id": "696a64ec-c194-4676-8b94-e515c4c58a22",
+				"method": "DELETE"
+			},
+			{
+				"id": "7e928987-d147-4a9a-b174-f1dcc8b893c3",
+				"method": "POST"
+			},
+			{
+				"id": "d47e4337-0072-4aa9-ad16-e1ad0f99290b",
+				"method": "GET"
+			},
+			{
+				"id": "be318979-f827-46e5-ab35-a0732579a390",
+				"method": "GET"
+			},
+			{
+				"id": "3bc5eea8-abd9-40c6-8123-5d9013eea17a",
+				"method": "PUT"
+			},
+			{
+				"id": "81773054-5385-4bf0-9a11-22523054dac0",
+				"method": "DELETE"
+			}
+		]
+	}
+}
